@@ -1,9 +1,9 @@
 **Project Title:**
 Java Project to provide API's to save/fetch continuous stream of temperature data from sensor. 
 
-Technology/Framework Used: Java, SpringBoot, Hibernate, Maven, JUnit 5
+**Technology/Framework Used:** Java, SpringBoot, Hibernate, Maven, JUnit 5
 
-Features:
+**Features:**
 Application exposes endpoints to do the following activities. 
 1. Save the continous stream of Temperature data from temperature Sensor.
 2. Provide hourly average of the Temperature data.
@@ -11,22 +11,23 @@ Application exposes endpoints to do the following activities.
 
 The Application Read performance is enhanced by using Materialized Views.
 
-Installation:
+**Installation:**
 
 1. Install JAVA JDK 11, MAVEN in your machine.
 2. Install PostMan client to test the Endpoints.
 3. Install POSTGRESQL and PGAdmin Client.
 
-API Reference:
-POST : http://localhost:8080/saveTemperature
+**API Reference:**
+POST : http://localhost:8080/saveTemperature 
 GET  : http://localhost:8080/getHourlyData 
 GET  : http://localhost:8080/getDailyData
 
+JSON for POST Request qardio_save.json
 
-Tests:
+**Tests:**
 Please run 'mvn install' or 'mvn test' from the root folder to execute the Test Cases. 
 
-How to use:
+**How to use:**
 
 1. Clone this repository in your local machine by using GIT tool.
 
