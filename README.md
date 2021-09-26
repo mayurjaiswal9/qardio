@@ -1,8 +1,5 @@
-Project Title:
+**Project Title:**
 Java Project to provide API's to save/fetch continuous stream of temperature data from sensor. 
-
-Motivation:
-This project is useful for developers looking for sample implementation of Materialized views.
 
 Technology/Framework Used: Java, SpringBoot, Hibernate, Maven, JUnit 5
 
