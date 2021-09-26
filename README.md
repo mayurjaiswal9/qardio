@@ -22,7 +22,7 @@ POST : http://localhost:8080/saveTemperature
 GET  : http://localhost:8080/getHourlyData 
 GET  : http://localhost:8080/getDailyData
 
-JSON for POST Request qardio_save.json
+JSON for POST Request save_temperature.json
 
 **Tests:**
 Please run 'mvn install' or 'mvn test' from the root folder to execute the Test Cases. 
@@ -38,5 +38,5 @@ Please run 'mvn install' or 'mvn test' from the root folder to execute the Test 
 3. Create the schema as per the scripts uploaded **qardio_schema.sql** , using PGAdmin 4 client.
 4. Run the Test Cases from the root directory using command line 'mvn test'
 5. Create JAR using command line from the root directory. 'mvn install' (JAR is created in Target folder of the application)
-6. Run the Spring boot application using java -jar <jarname>
+6. Run the Spring boot application using java -jar **JARNAME**
 
