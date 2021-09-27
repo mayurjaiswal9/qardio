@@ -41,7 +41,11 @@ Please run 'mvn install' or 'mvn test' from the root folder to execute the Test 
 6. Create JAR using command line from the root directory. 'mvn install' (JAR is created in Target folder of the application)
 7. Run the Spring boot application using java -jar **JARNAME**
 
+**Testing with Postman**
 
-JAVA Doc Documentation:
+1.Import the collection QardioCollection.postman_collection in PostMan.
+2.Execute the Rest API's in Collection.
+
+**JAVA Doc Documentation:**
 
 Please refer **TemperatureService.html** 
