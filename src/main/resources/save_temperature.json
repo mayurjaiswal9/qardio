@@ -1,0 +1,107 @@
+[
+  {
+    "device_id": 123,
+    "temperature": 4.0,
+    "ts": "2021-09-17 07:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 05:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 04:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 03:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 02:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-24 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-24 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 32.0,
+    "ts": "2021-09-25 01:48:32"
+  },
+  {
+    "device_id": 123,
+    "temperature": 33.0,
+    "ts": "2021-09-25 01:48:32"
+  }
+]
