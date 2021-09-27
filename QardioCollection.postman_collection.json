@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "42da2980-4cda-481b-b1cc-774558a7ae70",
+		"name": "QardioCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/saveTemperature",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 05:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 04:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 03:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 02:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-24 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-24 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 32.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    },\r\n    {\r\n        \"device_id\": 123,\r\n        \"temperature\": 33.0,\r\n        \"ts\": \"2021-09-25 01:48:32\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/saveTemperature",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"saveTemperature"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/getHourlyData",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getHourlyData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getHourlyData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/getDailyData",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getHourlyData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getHourlyData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
